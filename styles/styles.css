@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Epilogue:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    padding: 0;
+    margin: 0;
+
+    color: white;
+}
+
+body{
+    background-color: gray;
+}
+
+main{
+    background-color: var(--mid-dark-gray);
+
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    font-size: unset;
+    font-family: unset;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6,.text,.text-sm,.caption{
+    padding: 0;
+    margin: 0;
+}
+    
+
+
+:root{
+    --font-base: 1rem;
+
+    --amarillo: #FFDA06;
+    --soft-gray: #F2F2F2;
+    --mid-soft-gray: #777777;
+    --mid-dark-gray: #292929;
+    --mid-gray: #333333;
+    --dark-gray: #1E1E1E;
+}
+
+.soft-gray{
+    color: var(--soft-gray);
+}
+
+.delagotic{
+    font-family: "Dela Gothic One", sans-serif;
+}
+
+.h1{
+    font-size: calc(var(--font-base)*3);
+}
+.h2{
+    font-size: calc(var(--font-base)*2.5);
+}
+.h3{
+    font-size: calc(var(--font-base)*2.062);
+}
+.h4{
+    font-size: calc(var(--font-base)*1.75);
+}
+.h5{
+    font-size: calc(var(--font-base)*1.438);
+}
+.h6{
+    font-size: calc(var(--font-base)*1.188);
+}
+.text{
+    font-size: calc(var(--font-base)*1);
+}
+.text-sm{
+    font-size: calc(var(--font-base)*0.812);
+}
+.caption{
+    font-size: calc(var(--font-base)*0.688);
+}
+
+.med{
+    font-weight: 500;
+}
+.bold{
+    font-weight: 700;
+}
+
+.max-width{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.overflow-hiden{
+    overflow-x: hidden !important; 
+}
+
+
+.margin-top{
+    padding-top: 80px;
+}
+
+.shadow-huge{
+    box-shadow: 0 0 48px rgba(0,0,0,0.15);
+}
+
+.bg-img{
+    background-color: var(--mid-gray);
+}
+
+.upperletter{
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 450px) {
+    :root{
+        --font-base: 0.75rem;
+    }
+
+    .margin-top{
+        padding-top: 70px;
+    }
+    
+}
